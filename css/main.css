@@ -158,7 +158,7 @@ header
     {
         border-top: solid black 1px;
         border-bottom: solid black 1px;
-        background-image: radial-gradient(to right, #cdcdcd, #dcd8da, #eee3e2, #fbf0e8, #fffff0);  border-radius:10px 10px;      
+        background-image: radial-gradient(to left, #cdcdcd, #dcd8da, #eee3e2, #fbf0e8, #fffff0);  border-radius:10px 10px;      
         display: flex;
         
     }
