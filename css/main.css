@@ -198,6 +198,7 @@ header
     {
         background-image: linear-gradient(to top, #b3b3b3, #c8c4c7, #e0d6d5, #f4e9e1, #fffff0); 
         color: white;
+        margin-bottom:0;
       
     }
 
@@ -250,4 +251,5 @@ header
     {
     height:5vh;
     align-self: baseline;
+    margin-bottom: 0;
     }
