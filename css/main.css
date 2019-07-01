@@ -1,0 +1,253 @@
+body
+{
+    font-family:'Vollkorn',Arial, Helvetica, serif;
+    background-color: ivory;
+}
+
+header
+{
+    background-image: url(../img/bridge.jpg);
+    background-size: cover;
+    height:50vh;
+    text-align: center;
+    
+}
+
+.logo
+{
+    height: 20vh;
+    border-radius: 50%;
+    margin: auto;
+   position: relative;
+   left:-1.8em;
+
+}
+
+    h1
+    {
+        font-style: italic;
+        color: white; 
+        font-size: 50px; 
+        -webkit-text-stroke-width: 1px; 
+        -webkit-text-stroke-color: black; 
+        text-shadow: 2px 5px 5px black;
+
+     
+    }
+
+    h2
+    {
+        color: lightseagreen;
+        font-size: 45px;
+        -webkit-text-stroke-width: 1px; 
+        -webkit-text-stroke-color: black; 
+        text-shadow: 2px 2px 2px black;
+    }
+
+    nav
+    {
+        border-top: solid black 1px;
+        border-bottom: 1px solid black;
+        text-align: center;
+        line-height: 5vh;
+        padding: 0.8em;
+        margin: auto;
+        width: 70vw;
+    }
+
+    a
+    {
+        text-decoration: none;
+        color: black;
+        font-family: 'Vollkorn',Arial, Helvetica,serif;
+        padding: 2.5em ;
+        margin: 1em  ;
+        text-transform: uppercase;
+        font-size: 25px;
+        text-decoration: underline;
+    }
+
+    main
+    {
+        width: 70vw;
+        margin: auto;
+
+    }
+
+    .art
+    {
+        display:flex;
+          
+        
+    }
+
+    
+    
+   
+    .art__graph
+    {
+        border-top:solid black 1px;
+        border-bottom: solid black 1px;
+        margin:auto;
+        margin-top: 1em;    
+        background-image: radial-gradient(circle, #cdcdcd, #dcd8da, #eee3e2, #fbf0e8, #fffff0);
+        border-radius: 10px 10px;
+    }
+
+    .art__graph__img
+    {
+        width:20vw;
+        border-radius: 10px 10px;
+        margin:1em;
+    }
+
+    .art__nature
+    {
+        border-top: solid black 1px;
+        border-bottom: solid black 1px;
+        margin:auto;
+        margin-top: 1em;     
+        background-image: radial-gradient(circle, #cdcdcd, #dcd8da, #eee3e2, #fbf0e8, #fffff0);  
+        border-radius: 10px 10px;
+    }
+
+    .art__nature__img
+    {
+        width:20vw;
+        border-radius: 10px 10px;
+        margin:1em;
+    }
+
+
+    .art__city
+    {
+        border-top: solid black 1px;
+        border-bottom: solid black 1px;
+        margin:auto;
+        margin-top: 1em;   
+        background-image: radial-gradient(circle, #cdcdcd, #dcd8da, #eee3e2, #fbf0e8, #fffff0);
+        border-radius:10px 10px;
+    }
+
+    .art__city__img
+    {
+        width: 20vw;
+        border-radius: 10px 10px;
+        margin:1em;
+    }
+
+
+    h3
+    {
+        text-align: center;
+        font-size: 25px;
+        text-decoration: underline gray
+    }
+
+
+    p
+    {
+        text-align: center;
+        font-style: italic;
+        font-size: 1.2em;
+        text-shadow: 1px 2px 1px white
+    }
+
+
+    .art__me
+    {
+        border-top: solid black 1px;
+        border-bottom: solid black 1px;
+        background-image: radial-gradient(to right, #cdcdcd, #dcd8da, #eee3e2, #fbf0e8, #fffff0);  border-radius:10px 10px;      
+        display: flex;
+        
+    }
+    .art__me__img
+    {
+        width:30vw;
+        border-radius: 10px 10px;
+        margin:auto;
+    }
+
+    .art__me__text
+    {
+        padding: 2em;
+        margin:auto;
+    }
+
+    .section__me
+    {
+        margin:1em;
+    }
+
+    .art__search
+{
+    
+    width:15vw;
+   background-image: radial-gradient(circle, #cdcdcd, #dcd8da, #eee3e2, #fbf0e8, #fffff0);
+   border:solid black 1px;
+   border-radius: 10px 10px;
+   margin: auto;
+   margin-top: 4em;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+
+    footer
+    {
+        background-image: linear-gradient(to top, #b3b3b3, #c8c4c7, #e0d6d5, #f4e9e1, #fffff0); 
+        color: white;
+      
+    }
+
+
+    #cont
+    {
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline gray;
+        text-shadow: 1px 1px 1px black;
+        -webkit-text-stroke-width: 1px; 
+        -webkit-text-stroke-color: black;
+    }
+
+
+    .art__contact
+    {
+       width:15vw;
+       padding-left:5em;
+       margin: auto;
+    }
+
+    .art__contact__facebook
+    {
+        width:5vw;
+        margin: auto;
+     
+    }
+
+    .art__contact__twitter
+    {
+        width:5vw;
+        margin:auto;
+    }
+
+    .art__contact__instagram
+    {
+        width:5vw;
+        margin:auto;
+    }
+
+
+    .art__contact__linkedin
+    {
+        width:5.8vw;
+        margin:auto;
+    }
+
+    .footer__made
+    {
+    height:5vh;
+    align-self: baseline;
+    }
