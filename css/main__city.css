@@ -1,0 +1,231 @@
+body
+{
+    font-family:'Vollkorn',Arial, Helvetica, serif;
+    background-color: ivory;
+}
+
+header
+{
+    background-image: url(../img/bridge.jpg);
+    background-size: cover;
+    height:50vh;
+    text-align: center;
+    border: solid black 1px;
+    
+}
+
+.logo
+{
+    height: 15vh;
+    border-radius: 50%;
+    margin: auto;
+   position: relative;
+   left:-1.8em;
+
+}
+
+    h1
+    {        
+        font-style: italic;
+        font-size:50px;        
+        text-shadow: 2px 5px 5px black;
+        -webkit-text-stroke-width: 1px; 
+        -webkit-text-stroke-color:white;
+        background-color: rgba(179, 179, 179,0.8);
+        width:8em;
+        margin: auto;
+        margin-bottom: 0.7em;
+        border-radius: 10px 10px;
+        line-height: 2em;
+        letter-spacing: 0.1em;
+    }
+
+    h2
+    {
+        color: ivory;
+        font-size: 45px;
+        -webkit-text-stroke-width: 1px; 
+        -webkit-text-stroke-color: black; 
+        text-shadow: 2px 2px 2px black;
+    }
+
+nav
+{
+    background-color: ivory;
+    text-align: center;
+    line-height: 5vh;
+    padding: 0.8em;
+    margin: auto;
+    width:100%;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+    font-family: 'Vollkorn',Arial, Helvetica,serif;
+    padding: 2.5em ;
+    margin: 1em  ;
+    text-transform: uppercase;
+    font-size: 25px; 
+}
+
+main
+{
+    border-bottom:0.5em;
+}
+
+.sec__main
+{
+  
+    width:80vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+    justify-content: space-between;
+}
+
+.art__main
+{
+    width:21vw;
+    padding: 1em;
+    text-align: center;
+    border-top:solid black 1px;
+    border-bottom: solid black 1px;
+    margin-top: 1em;    
+    background-image: radial-gradient(circle, #cdcdcd, #dcd8da, #eee3e2, #fbf0e8, #fffff0);
+    border-radius: 10px 10px;
+
+}
+
+.art__monkey__img
+{
+    width:20vw;
+    height:40vh;
+    margin:auto;
+    border-radius:10px 10px;
+}
+
+.art__ms__img
+{
+    width:20vw;
+    height:70vh;
+    margin:auto;
+    border-radius:10px 10px;
+}
+
+.art__book__img
+{
+    width:20vw;
+    height:58vh;
+    margin:auto;
+    border-radius:10px 10px;
+}
+
+.art__love__img
+{
+    width:20vw;
+    height:55vh;
+    margin:auto;
+    border-radius:10px 10px;
+}
+
+.art__dream__img
+{
+    width:20vw;
+    height:50vh;
+    margin:auto;
+    border-radius:10px 10px;
+}
+
+.art__office__img
+{
+    width:20vw;
+    height:25vh;
+    margin:auto;
+    border-radius:10px 10px;
+}
+
+.monkey
+{
+    height:33em;
+}
+
+.book
+{
+    height:45em;
+}
+.love
+{
+    position: relative;
+    top:-18em;
+}
+
+.dream
+{
+    height:40em;
+}
+
+.office
+{
+    height:26em;
+}
+
+footer
+{
+    background-image: linear-gradient(to top, #b3b3b3, #c8c4c7, #e0d6d5, #f4e9e1, #fffff0); 
+    color: white;
+    margin-bottom: 0;
+}
+
+
+#cont
+{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline gray;
+    text-shadow: 1px 1px 1px black;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black;
+}
+
+
+.art__contact
+{
+   width:15vw;
+   padding-left:5em;
+   margin: auto;
+}
+
+.art__contact__facebook
+{
+    width:5vw;
+    margin: auto;
+ 
+}
+
+.art__contact__twitter
+{
+    width:5vw;
+    margin:auto;
+}
+
+.art__contact__instagram
+{
+    width:5vw;
+    margin:auto;
+}
+
+
+.art__contact__linkedin
+{
+    width:5.8vw;
+    margin:auto;
+}
+
+.footer__made
+{
+height:5vh;
+text-align: center;
+margin-bottom: 0;
+}
