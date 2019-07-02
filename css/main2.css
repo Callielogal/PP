@@ -71,9 +71,9 @@ a
 
 main
 {
-    width: 70vw;
-    margin: auto;
-    display:flex;
+   
+display:flex;
+flex-wrap: wrap;
 
 }
 
@@ -121,23 +121,13 @@ main
 }
  .art__main
  {
-     width:30vw;
+     width:40vw;
      padding:auto;
      margin:auto;
      border-top: solid black 1px;
      border-bottom: solid black 1px;
      border-radius: 10px 10px;
  }
-
-
-
-
-
-
-
-
-
-
 
 
 footer
@@ -197,4 +187,9 @@ footer
 height:5vh;
 align-self: baseline;
 margin-bottom: 0;
+}
+
+.sec__main
+{
+    width
 }
