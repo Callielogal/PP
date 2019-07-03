@@ -10,8 +10,6 @@ header
     background-size: cover;
     height:50vh;
     text-align: center;
-    border: solid black 1px;
-    
 }
 
 .logo
@@ -19,35 +17,35 @@ header
     height: 15vh;
     border-radius: 50%;
     margin: auto;
-   position: relative;
-   left:-1.8em;
+    position: relative;
+    left:-1.8em;
 
 }
 
-    h1
-    {        
-        font-style: italic;
-        font-size:50px;        
-        text-shadow: 2px 5px 5px black;
-        -webkit-text-stroke-width: 1px; 
-        -webkit-text-stroke-color:white;
-        background-color: rgba(179, 179, 179,0.8);
-        width:8em;
-        margin: auto;
-        margin-bottom: 0.7em;
-        border-radius: 10px 10px;
-        line-height: 2em;
-        letter-spacing: 0.1em;
-    }
+h1
+{        
+    font-style: italic;
+    font-size:50px;        
+    text-shadow: 2px 5px 5px black;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color:white;
+    background-color: rgba(179, 179, 179,0.8);
+    width:8em;
+    margin: auto;
+    margin-bottom: 0.7em;
+    border-radius: 10px 10px;
+    line-height: 2em;
+    letter-spacing: 0.1em;
+}
 
-    h2
-    {
-        color: ivory;
-        font-size: 45px;
-        -webkit-text-stroke-width: 1px; 
-        -webkit-text-stroke-color: black; 
-        text-shadow: 2px 2px 2px black;
-    }
+h2
+{
+    color: ivory;
+    font-size: 45px;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black; 
+    text-shadow: 2px 2px 2px black;
+}
 
 nav
 {
@@ -59,13 +57,13 @@ nav
     width:100%;
 }
 
-a
+.a__nav
 {
     text-decoration: none;
     color: black;
     font-family: 'Vollkorn',Arial, Helvetica,serif;
-    padding: 2.5em ;
-    margin: 1em  ;
+    padding: 0;
+    margin: 0.6em;    
     text-transform: uppercase;
     font-size: 25px; 
 }
@@ -77,7 +75,6 @@ main
 
 .sec__main
 {
-  
     width:80vw;
     display: flex;
     flex-wrap: wrap;
@@ -95,7 +92,6 @@ main
     margin-top: 1em;    
     background-image: radial-gradient(circle, #cdcdcd, #dcd8da, #eee3e2, #fbf0e8, #fffff0);
     border-radius: 10px 10px;
-
 }
 
 .art__monkey__img
@@ -178,7 +174,6 @@ footer
     margin-bottom: 0;
 }
 
-
 #cont
 {
     text-align: center;
@@ -188,7 +183,6 @@ footer
     -webkit-text-stroke-width: 1px; 
     -webkit-text-stroke-color: black;
 }
-
 
 .art__contact
 {
@@ -201,7 +195,6 @@ footer
 {
     width:5vw;
     margin: auto;
- 
 }
 
 .art__contact__twitter
@@ -229,3 +222,276 @@ height:5vh;
 text-align: center;
 margin-bottom: 0;
 }
+
+.link__img
+{
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width:480px)
+{
+   header
+   {
+       background-image: url(../img/bridge__small.jpg);
+   }
+
+   .logo
+   {
+       position: initial;
+   }
+
+   h1
+   {
+       font-size:40px;
+       width:100vw;
+       -webkit-text-stroke-width: 1px; 
+       -webkit-text-stroke-color:black;
+       text-shadow: 1px 2px 2px black;
+   }
+
+   h2
+   {
+       font-size:30px;
+       position: initial;
+   }
+
+   nav
+   {
+       width: 100vw;
+       font-size: 20px;
+       line-height: 2em;
+       text-align: center;
+       padding: 0;
+       margin:0;
+   }
+
+   .a__nav
+   {
+       padding: 0;
+       margin: 0.1em;
+   }
+
+   .art__contact
+   {
+       width:45vw;
+       margin:auto;;
+       padding: 0;
+   }
+
+   .art__contact__facebook
+   {
+       width:20vw;
+   }
+
+    .art__contact__twitter
+    {
+        width:20vw;
+    }
+
+
+   .art__contact__instagram
+   {
+       width:20vw;
+   }
+
+   .art__contact__linkedin
+   {
+       width:20vw;
+   }
+
+   .sec__main
+    {
+        display: block;
+        margin-left: 6vw;
+    }
+
+    .art__main
+    {
+        width: 80vw;
+        height:auto;
+        text-align: center; 
+    }
+
+    .art__monkey__img
+    {
+        width:80vw;
+        height: auto;
+    }
+
+    .art__ms__img
+    {
+        width:80vw;
+        height:auto;
+    }
+
+    .art__book__img
+    {
+        width: 80vw;
+        height: auto;
+    }
+
+    .art__love__img
+    {
+        width: 80vw;
+        height: auto;
+    }
+
+    .love
+    {
+        position: initial;
+    }
+
+    .art__dream__img
+    {
+        width: 80vw;
+        height: auto;
+    }
+
+    .dream
+    {
+        position: initial;
+    }
+
+    .art__office__img
+    {
+        width: 80vw;
+        height: auto;
+        position: initial;
+    }
+
+}
+
+@media screen and (min-width:480px) and (max-width:768px)
+
+{
+    header
+    {
+        background-image: url(../img/bridge__medium.jpg);
+    }
+  
+    .logo
+    {
+        position: initial;
+    }
+ 
+    h1
+    {
+        font-size:40px;
+        width:100vw;
+        -webkit-text-stroke-width: 1px; 
+        -webkit-text-stroke-color:black;
+        text-shadow: 1px 2px 2px black;
+    }
+ 
+    h2
+    {
+        font-size:35px;
+        position: initial;       
+    }
+ 
+    nav
+    {
+        width: 100vw;
+        font-size: 20px;
+        line-height: 2em;
+        text-align: center;
+        padding: 0;
+        margin:0;
+    }
+ 
+    .a__nav
+    {
+        padding: 0;
+        margin: 0.4em;
+    }
+ 
+    .art__contact
+    {
+        width:45vw;
+        margin:auto;;
+        padding: 0;
+    }
+ 
+    .art__contact__facebook
+    {
+        width:20vw;
+    }
+ 
+    .art__contact__twitter
+    {
+        width:20vw;
+    }
+ 
+    .art__contact__instagram
+    {
+        width:20vw;
+    }
+ 
+    .art__contact__linkedin
+    {
+        width:20vw;
+    }
+ 
+    .sec__main
+    {
+        display: block;
+        margin-left: 6vw;
+     }
+ 
+    .art__main
+    {
+        width: 80vw;
+        height:auto;
+        text-align: center;
+    }
+ 
+    .art__monkey__img
+    {
+        width:80vw;
+        height: auto;
+    }
+ 
+    .art__ms__img
+    {
+        width:80vw;
+        height:auto;
+    }
+ 
+    .art__book__img
+    {
+        width: 80vw;
+        height: auto;
+    }
+ 
+    .art__love__img
+    {
+        width: 80vw;
+        height: auto;
+    }
+ 
+    .love
+    {
+        position: initial;
+    }
+ 
+    .art__dream__img
+    {
+        width: 80vw;
+        height: auto;
+    }
+ 
+    .dream
+    {
+        position: initial;
+    }
+ 
+    .art__office__img
+    {
+        width: 80vw;
+        height: auto;
+        position: initial;
+ }
+ 
+ }
+ 
